@@ -11,4 +11,5 @@ node_modules/**
 !.gitignore
 
 public/stylesheets/*.css
-bower_components
+bower_componentsnode_modules
+node_modules
