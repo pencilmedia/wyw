@@ -11,15 +11,6 @@
             <h1><%= h1 %> NEW SITE</h1>
             <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
             <p>i made change</p>
-
-            <!-- Conditional partial because if typeof var users defined in app.js -->
-            <% if (typeof (users) !== 'undefined') { %>
-                <ul>
-                    <% for(var i=0; i<users.length; i++) { %>
-                        <li><%= users[i] %></li>
-                    <% } %>
-                </ul>
-            <% } %>
         </div>
         </main>
 

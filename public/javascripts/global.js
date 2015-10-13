@@ -1,0 +1,6 @@
+// Global Javascript
+$(
+	function() {
+	// do
+	}
+);

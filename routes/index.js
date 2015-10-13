@@ -19,7 +19,25 @@ router.get('/about', function(req, res, next) {
   });
 });
 
-/* GET about. */
+/* GET services. */
+router.get('/services', function(req, res, next) {
+  res.render('services', {
+    title: 'writeyourway.org : Services',
+    h1: 'Services',
+    classname: 'services'
+  });
+});
+
+/* GET history. */
+router.get('/history', function(req, res, next) {
+  res.render('history', {
+    title: 'writeyourway.org : History',
+    h1: 'History',
+    classname: 'history'
+  });
+});
+
+/* GET contact. */
 router.get('/contact', function(req, res, next) {
   res.render('contact', {
     title: 'writeyourway.org : Contact',
