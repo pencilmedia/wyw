@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
 
-	require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
+	require('load-grunt-tasks')(grunt);
 
 	// Set Relative Path
 	var optionsContext = grunt.option('context') || '';
@@ -10,7 +10,13 @@ module.exports = function(grunt) {
 
 		// SCSS to CSS convert
 		sass: {
-			dist: {
+			build: { // Target
+				options: {
+					update: true, // Update changes made only
+					noCache: true,
+					sourcemap: 'none',
+          			style: 'nested' // we don't want to compress it
+				},
 				files: {
 					'public/stylesheets/main.css': 'sass/main.scss'
 				}

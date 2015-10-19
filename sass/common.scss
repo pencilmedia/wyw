@@ -3,10 +3,16 @@
 * {
 	box-sizing: border-box;
 }
-
-body {
-	// background: red;
+html, body {
+    height: 100%;
 }
+body {
+	@include vert-gradient($main, lighten($main, 7%));
+	overflow: hidden;
+     -webkit-font-smoothing: antialiased;
+     font-smoothing: antialiased;
+}
+
 
 /* GLOBAL ANCHOR LINKS
 // -----------------------------------------------------*/

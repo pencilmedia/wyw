@@ -9,6 +9,7 @@ writeyourway.org
 ``nodejs / npm``, ``npm install grunt-cli``, ``gem install sass``, ``npm install bower``,  "express", "express-generator"
 
 ## How to install it
+------------------------------------------
 
 // Run the following in command line
 ``npm install`` maybe ``sudo npm install``
@@ -20,13 +21,25 @@ writeyourway.org
 "sudo npm install express-generator"
 
 
-## How to run it
 
+## How to RUN it
+------------------------------------------
+2 terminals:
+
+Term 1:
 ``npm start`` command from root folder of project ("proto" folder)
 
-"Livereload is part of Heroku"
+Term 2:
+"grunt" command from root folder of project ("proto" folder)
 
-PUsh to "git push heroku master"
+
+
+## How to push to GIT/HEROKU
+------------------------------------------
+Push to "git push heroku master"
+
+
+
 
 
 IN PROJECT: 
