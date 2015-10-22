@@ -15,11 +15,8 @@ writeyourway.org
 ``npm install`` maybe ``sudo npm install``
 
 ``bower install``
-
 "sudo npm install express"
-
 "sudo npm install express-generator"
-
 
 
 ## How to RUN it
