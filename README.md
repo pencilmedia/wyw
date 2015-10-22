@@ -33,6 +33,8 @@ Term 2:
 
 ## How to push to GIT/HEROKU
 ------------------------------------------
+Through Terminal:
+
 Push to "git push heroku master"
 
 
