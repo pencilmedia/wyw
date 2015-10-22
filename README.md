@@ -24,7 +24,7 @@ writeyourway.org
 
 ## How to RUN it
 ------------------------------------------
-2 terminals:
+open 2 terminals:
 
 Term 1:
 ``npm start`` command from root folder of project ("proto" folder)
