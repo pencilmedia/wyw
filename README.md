@@ -8,6 +8,10 @@ writeyourway.org
 // Install the following:
 ``nodejs / npm``, ``npm install grunt-cli``, ``gem install sass``, ``npm install bower``,  "express", "express-generator"
 
+NOTE:
+EL CAPITAN OSX must install sass with " sudo gem install -n /usr/local/bin sass "
+
+
 ## How to install it
 ------------------------------------------
 

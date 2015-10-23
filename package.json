@@ -22,8 +22,7 @@
   "devDependencies": {
     "grunt-contrib-watch": "^0.6.1",
     "load-grunt-tasks": "^3.3.0",
-    "reload": "^0.5.0",
-    "sass": "file:sass"
+    "reload": "^0.5.0"
   },
   "main": "app.js",
   "engines": {
