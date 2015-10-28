@@ -19,16 +19,13 @@ EL CAPITAN OSX must install sass with " sudo gem install -n /usr/local/bin sass 
 ``npm install`` maybe ``sudo npm install``
 
 ``bower install``
-
 "sudo npm install express"
-
 "sudo npm install express-generator"
-
 
 
 ## How to RUN it
 ------------------------------------------
-2 terminals:
+open 2 terminals:
 
 Term 1:
 ``npm start`` command from root folder of project ("proto" folder)
@@ -40,6 +37,8 @@ Term 2:
 
 ## How to push to GIT/HEROKU
 ------------------------------------------
+Through Terminal:
+
 Push to "git push heroku master"
 
 
