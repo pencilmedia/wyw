@@ -18,6 +18,7 @@ module.exports = function(grunt) {
           			style: 'nested' // we don't want to compress it
 				},
 				files: {
+					'public/fonts/webfonts.css': 'sass/webfonts.scss',
 					'public/stylesheets/main.css': 'sass/main.scss'
 				}
 			}

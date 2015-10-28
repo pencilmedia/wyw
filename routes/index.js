@@ -5,8 +5,10 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { 
     title: 'writeyourway.org',
-    h1: 'Home',
-    classname: 'hmpg'
+    classname: 'hmpg',
+    companytitle: 'Rolando P. Garcia',
+    companydescription: 'Graphologist',
+    slogan: 'Reveal character, personality, abilities and much more!'
   });
 });
 

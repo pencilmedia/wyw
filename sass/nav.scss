@@ -1,0 +1,17 @@
+/* BEGIN: nav.scss
+// -----------------------------------------------------*/
+
+.navbar-fixed-bottom {
+	font-family: $fontMohave;
+	bottom: 60px;
+	li {
+		float: right;
+		margin-right: 10px;
+		&:first-child {
+			margin-right: 40px;
+		}
+		a {
+			border: none;
+		}
+	}
+}

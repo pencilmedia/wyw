@@ -4,17 +4,16 @@
         <% include partials/head.ejs %>
     </head>
     <body class="<%= classname %>">
-        <% include partials/nav.ejs %>
         
         <main class="container">
-        <div class="starter-template">
-            <h1><%= h1 %> NEW SITE</h1>
-            <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-
+        <div class="mid-anchor">
+            <h1><%= companytitle %></h1>
+            <h2><%= companydescription %></h2>
+            <p><%= slogan %></p>
         </div>
         </main>
 
-        <% include partials/footer.ejs %>
+        <% include partials/nav.ejs %>
         <% include partials/javascripts.ejs %>
     </body>
 </html>

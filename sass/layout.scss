@@ -1,2 +1,34 @@
 /* BEGIN: layout.scss
 // -----------------------------------------------------*/
+
+.hmpg {
+	h1, h2, p {
+		margin: 0;
+		padding: 0;
+	}
+	h1 {
+		font-family: $fontStrangelove;
+		font-size: 550%;
+		line-height: .75;
+	}
+	h2 {
+		font-family: $fontChelsea;
+		font-size: 350%;
+		+ p {
+			font-family: $fontMohave;
+			font-size: 150%;
+			color: $white;
+		}
+	}
+	.mid-anchor {
+		width: 50%;
+		margin: 25% auto;
+		margin-bottom: 0;
+		text-align: center;
+		> p {
+			max-width: 275px;
+			margin: $pageMargin auto;
+			margin-bottom: 0;
+		}
+	}
+}

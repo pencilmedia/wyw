@@ -1,0 +1,17 @@
+/* BEGIN: webfont.scss
+// -----------------------------------------------------*/
+@font-face {
+  font-family: StrangeLove;
+  src: url("strangelove.ttf"); }
+
+@font-face {
+  font-family: Chelsea;
+  src: url("chelsea.ttf"); }
+
+@font-face {
+  font-family: Mohave;
+  src: url("mohave.otf"); }
+
+@font-face {
+  font-family: Yuppy;
+  src: url("yuppy.otf"); }
