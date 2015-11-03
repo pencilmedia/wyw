@@ -1,6 +1,13 @@
 /* BEGIN: webfont.scss
 // -----------------------------------------------------*/
 
+// Declare the web font in variables.scss
+
+// Web Font: Great Vibes
+@font-face {
+  font-family: GreatVibes;
+  src: url('greatvibes.ttf');
+}
 
 // Web Font: Strangelove
 @font-face {

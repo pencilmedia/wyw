@@ -4,17 +4,17 @@
         <% include partials/head.ejs %>
     </head>
     <body class="<%= classname %>">
-        
-        <main class="container">
-        <div class="mid-anchor">
-            <h1><%= companytitle %></h1>
-            <h2><%= companydescription %></h2>
-            <p><%= slogan %></p>
-            <p>Change pushed to github first</p>
-        </div>
+        <main>
+            <article class="container">
+                <div class="mid-anchor">
+                    <h1><%= companytitle %></h1>
+                    <h2><%= companydescription %></h2>
+                    <p><%= slogan %></p>
+                    <p>Change pushed to github first</p>
+                </div>
+                <% include partials/nav.ejs %>
+            </article>
+            <% include partials/javascripts.ejs %>
         </main>
-
-        <% include partials/nav.ejs %>
-        <% include partials/javascripts.ejs %>
     </body>
 </html>

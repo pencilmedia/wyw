@@ -1,6 +1,10 @@
 /* BEGIN: webfont.scss
 // -----------------------------------------------------*/
 @font-face {
+  font-family: GreatVibes;
+  src: url("greatvibes.ttf"); }
+
+@font-face {
   font-family: StrangeLove;
   src: url("strangelove.ttf"); }
 
