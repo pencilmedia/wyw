@@ -7,7 +7,7 @@ html, body, main {
     height: 100%;
 }
 body {
-	@include vert-gradient($yellow, lighten($yellow, 10%));
+	@include vert-gradient($yellow, lighten($red, 10%));
 	overflow: hidden;
      -webkit-font-smoothing: antialiased;
      font-smoothing: antialiased;
