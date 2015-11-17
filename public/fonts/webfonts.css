@@ -9,8 +9,12 @@
   src: url("strangelove.ttf"); }
 
 @font-face {
-  font-family: Chelsea;
-  src: url("chelsea.ttf"); }
+  font-family: Eaglefeather;
+  src: url("Eaglefeather.ttf"); }
+
+@font-face {
+  font-family: Noteworthy;
+  src: url("Noteworthy.ttc"); }
 
 @font-face {
   font-family: Mohave;
