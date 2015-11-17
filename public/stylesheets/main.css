@@ -186,7 +186,8 @@ body {
   /* IE6-9 */ }
 
 main {
-  background: url("/images/bg_stains.png") no-repeat left bottom; }
+  background: url("/images/bg_stains.png") no-repeat left bottom fixed;
+  background-size: cover; }
 
 /* GLOBAL ANCHOR LINKS
 // -----------------------------------------------------*/
