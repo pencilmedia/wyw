@@ -9,17 +9,13 @@
 	h1 {
 		font-family: $fontGreatVibes;
 		// font-family: $fontStrangelove;
-		font-size: 400%;
+		font-size: 350%;
 		line-height: 1.15;
 	}
 	h2 {
-		font-family: $fontChelsea;
-		font-size: 350%;
-		+ p {
-			font-family: $fontMohave;
-			font-size: 150%;
-			color: $white;
-		}
+		font-family: $fontEaglefeather;
+		font-size: 275%;
+		color: $orange;
 	}
 	.mid-anchor {
 		width: 50%;
@@ -27,9 +23,14 @@
 		margin-bottom: 0;
 		text-align: center;
 		> p {
-			max-width: 275px;
-			margin: $pageMargin auto;
-			margin-bottom: 0;
+			font-family: $fontNoteworthy;
+			font-size: 125%;
+			font-weight: 600;
+			color: $burgundy;
+			position: absolute;
+			left: 0;
+			bottom: $pageMargin;
+			width: 100%;
 		}
 	}
 }

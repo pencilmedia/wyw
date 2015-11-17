@@ -12,9 +12,17 @@ body {
      -webkit-font-smoothing: antialiased;
      font-smoothing: antialiased;
 	color: $brown;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7ebd7+0,f4e0be+25,f4e0be+75,eedcc0+100 */
+background: #f7ebd7; /* Old browsers */
+background: -moz-linear-gradient(top,  #f7ebd7 0%, #f4e0be 25%, #f4e0be 75%, #eedcc0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f7ebd7 0%,#f4e0be 25%,#f4e0be 75%,#eedcc0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f7ebd7 0%,#f4e0be 25%,#f4e0be 75%,#eedcc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7ebd7', endColorstr='#eedcc0',GradientType=0 ); /* IE6-9 */
+
 }
 main {
-	background: url('/images/canvas_texture.png') left top;
+	background: url('/images/bg_stains.png') no-repeat left bottom fixed;
+	background-size: cover;
 }
 
 

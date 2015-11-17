@@ -26,16 +26,13 @@
 
 .hmpg h1 {
   font-family: "GreatVibes";
-  font-size: 400%;
+  font-size: 350%;
   line-height: 1.15; }
 
 .hmpg h2 {
-  font-family: "Chelsea";
-  font-size: 350%; }
-  .hmpg h2 + p {
-    font-family: "Mohave";
-    font-size: 150%;
-    color: #fff; }
+  font-family: "Eaglefeather";
+  font-size: 275%;
+  color: #EA4727; }
 
 .hmpg .mid-anchor {
   width: 50%;
@@ -43,9 +40,14 @@
   margin-bottom: 0;
   text-align: center; }
   .hmpg .mid-anchor > p {
-    max-width: 275px;
-    margin: 20px auto;
-    margin-bottom: 0; }
+    font-family: "Noteworthy";
+    font-size: 125%;
+    font-weight: 600;
+    color: #C14E4E;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 100%; }
 
 /* BEGIN: typography.scss
 // -----------------------------------------------------*/
@@ -170,10 +172,22 @@ body {
   overflow: hidden;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  color: #443322; }
+  color: #443322;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7ebd7+0,f4e0be+25,f4e0be+75,eedcc0+100 */
+  background: #f7ebd7;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f7ebd7 0%, #f4e0be 25%, #f4e0be 75%, #eedcc0 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f7ebd7 0%, #f4e0be 25%, #f4e0be 75%, #eedcc0 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f7ebd7 0%, #f4e0be 25%, #f4e0be 75%, #eedcc0 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7ebd7', endColorstr='#eedcc0',GradientType=0 );
+  /* IE6-9 */ }
 
 main {
-  background: url("/images/canvas_texture.png") left top; }
+  background: url("/images/bg_stains.png") no-repeat left bottom fixed;
+  background-size: cover; }
 
 /* GLOBAL ANCHOR LINKS
 // -----------------------------------------------------*/
