@@ -5,6 +5,10 @@
   src: url("AmericanTypewriter.ttc"); }
 
 @font-face {
+  font-family: Chelsea;
+  src: url("chelsea.ttf"); }
+
+@font-face {
   font-family: GreatVibes;
   src: url("greatvibes.ttf"); }
 
@@ -25,5 +29,5 @@
   src: url("mohave.otf"); }
 
 @font-face {
-  font-family: Yuppy;
-  src: url("yuppy.otf"); }
+  font-family: IndieFlower;
+  src: url("IndieFlower.ttf"); }

@@ -32,8 +32,10 @@
 
 .hmpg h2 {
   font-family: "Eaglefeather";
-  font-size: 275%;
-  color: #C14E4E; }
+  font-size: 225%;
+  font-weight: 300;
+  color: #C14E4E;
+  margin-top: 20px; }
 
 .hmpg .mid-anchor {
   width: 50%;
@@ -41,10 +43,9 @@
   margin-bottom: 0;
   text-align: center; }
   .hmpg .mid-anchor > p {
-    font-family: "Noteworthy";
-    font-size: 125%;
+    font-family: "IndieFlower";
     font-weight: 600;
-    color: #EA4727;
+    color: #77593c;
     position: absolute;
     left: 0;
     bottom: 20px;
@@ -52,7 +53,7 @@
   .hmpg .mid-anchor .navbar {
     text-align: center;
     width: 50%;
-    margin: 20px auto;
+    margin: 0 auto;
     min-height: auto; }
     .hmpg .mid-anchor .navbar .nav {
       width: 100%; }
@@ -304,7 +305,8 @@ hr {
       background: none;
       text-decoration: underline; }
   .navbar li.active a {
-    color: #C14E4E;
+    color: #EA4727;
+    font-weight: bold;
     text-decoration: underline;
     cursor: default; }
 

@@ -9,14 +9,15 @@
 	}
 	h1 {
 		font-family: $fontGreatVibes;
-		// font-family: $fontStrangelove;
 		font-size: 350%;
 		line-height: 1.15;
 	}
 	h2 {
 		font-family: $fontEaglefeather;
-		font-size: 275%;
+		font-size: 225%;
+		font-weight: 300;
 		color: $burgundy;
+		margin-top: $pageMargin;
 	}
 	.mid-anchor {
 		width: 50%;
@@ -24,10 +25,9 @@
 		margin-bottom: 0;
 		text-align: center;
 		> p {
-			font-family: $fontNoteworthy;
-			font-size: 125%;
+			font-family: $fontIndieFlower;
 			font-weight: 600;
-			color: $orange;
+			color: $brownLight;
 			position: absolute;
 			left: 0;
 			bottom: $pageMargin;
@@ -36,7 +36,7 @@
 		.navbar {
 			text-align: center;
 			width: 50%;
-			margin: $pageMargin auto;
+			margin: 0 auto;
 			min-height: auto;
 			.nav {
 				width: 100%;

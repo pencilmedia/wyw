@@ -14,7 +14,8 @@
 		}
 		&.active {
 			a {
-				color: $burgundy;
+				color: $orange;
+				font-weight: bold;
 				text-decoration: underline;
 				cursor: default;
 			}

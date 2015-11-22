@@ -13,6 +13,7 @@ $yellowLight:			lighten($yellow, 15%);
 
 
 $brown:				#443322;
+$brownLight:			lighten($brown, 15%);
 
 $white:				#fff;
 $black:				#000;
@@ -42,11 +43,13 @@ $fontFamilyLight:	    "Helvetica Neue Light", Helvetica, Arial, sans-serif;
 
 // Custom Web Fonts
 $fontAmericanTypewriter:  "AmericanTypewriter";
+$fontChelsea:  "Chelsea";
 $fontGreatVibes:  "GreatVibes";
 $fontStrangelove:  "StrangeLove";
 $fontEaglefeather:  "Eaglefeather";
 $fontNoteworthy:  "Noteworthy";
 $fontMohave:  "Mohave";
+$fontIndieFlower:  "IndieFlower";
 
 //** Background color for `<body>`.
 $bodyBG:               $white;
