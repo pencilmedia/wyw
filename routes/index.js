@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
     title: 'writeyourway.org',
     classname: 'hmpg',
     companytitle: 'Rolando P. Garcia',
-    companydescription: 'Graphologist',
+    companydescription: 'Handwriting Analysis',
     slogan: 'Reveal character, personality, abilities and much more!'
   });
 });

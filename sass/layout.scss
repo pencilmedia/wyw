@@ -5,6 +5,7 @@
 	h1, h2, p {
 		margin: 0;
 		padding: 0;
+		text-shadow: 0 1px 0 #f7ebd7;
 	}
 	h1 {
 		font-family: $fontGreatVibes;
@@ -15,7 +16,7 @@
 	h2 {
 		font-family: $fontEaglefeather;
 		font-size: 275%;
-		color: $orange;
+		color: $burgundy;
 	}
 	.mid-anchor {
 		width: 50%;
@@ -26,7 +27,7 @@
 			font-family: $fontNoteworthy;
 			font-size: 125%;
 			font-weight: 600;
-			color: $burgundy;
+			color: $orange;
 			position: absolute;
 			left: 0;
 			bottom: $pageMargin;

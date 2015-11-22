@@ -22,7 +22,8 @@
 // -----------------------------------------------------*/
 .hmpg h1, .hmpg h2, .hmpg p {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  text-shadow: 0 1px 0 #f7ebd7; }
 
 .hmpg h1 {
   font-family: "GreatVibes";
@@ -32,7 +33,7 @@
 .hmpg h2 {
   font-family: "Eaglefeather";
   font-size: 275%;
-  color: #EA4727; }
+  color: #C14E4E; }
 
 .hmpg .mid-anchor {
   width: 50%;
@@ -43,7 +44,7 @@
     font-family: "Noteworthy";
     font-size: 125%;
     font-weight: 600;
-    color: #C14E4E;
+    color: #EA4727;
     position: absolute;
     left: 0;
     bottom: 20px;
@@ -185,15 +186,15 @@ body {
   font-smoothing: antialiased;
   color: #443322;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7ebd7+0,f4e0be+25,f4e0be+75,eedcc0+100 */
-  background: #f7ebd7;
+  background: #e5c997;
   /* Old browsers */
-  background: url("/images/ink_stamp.png") no-repeat 5% 30px fixed, url("/images/stamp.png") no-repeat 95% 30px fixed, url("/images/bg_stains.png") no-repeat left bottom fixed, -moz-linear-gradient(top, #f7ebd7 0%, #f4e0be 25%, #f4e0be 75%, #eedcc0 100%);
+  background: url("/images/ink_stamp.png") no-repeat 5% 30px fixed, url("/images/stamp.png") no-repeat 95% 30px fixed, url("/images/bg_stains.png") no-repeat left bottom fixed, -moz-linear-gradient(top, #e5c997 0%, #d9c39c 14%, #d9c39c 91%, #ccb68e 100%);
   /* FF3.6-15 */
-  background: url("/images/ink_stamp.png") no-repeat 5% 30px fixed, url("/images/stamp.png") no-repeat 95% 30px fixed, url("/images/bg_stains.png") no-repeat left bottom fixed, -webkit-linear-gradient(top, #f7ebd7 0%, #f4e0be 25%, #f4e0be 75%, #eedcc0 100%);
+  background: url("/images/ink_stamp.png") no-repeat 5% 30px fixed, url("/images/stamp.png") no-repeat 95% 30px fixed, url("/images/bg_stains.png") no-repeat left bottom fixed, -webkit-linear-gradient(top, #e5c997 0%, #d9c39c 14%, #d9c39c 91%, #ccb68e 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: url("/images/ink_stamp.png") no-repeat 5% 30px fixed, url("/images/stamp.png") no-repeat 95% 30px fixed, url("/images/bg_stains.png") no-repeat left bottom fixed, linear-gradient(to bottom, #f7ebd7 0%, #f4e0be 25%, #f4e0be 75%, #eedcc0 100%);
+  background: url("/images/ink_stamp.png") no-repeat 5% 30px fixed, url("/images/stamp.png") no-repeat 95% 30px fixed, url("/images/bg_stains.png") no-repeat left bottom fixed, linear-gradient(top, #e5c997 0%, #d9c39c 14%, #d9c39c 91%, #ccb68e 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7ebd7', endColorstr='#eedcc0',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c997', endColorstr='#ccb68e',GradientType=0 );
   /* IE6-9 */
   background-size: 10%, 10%, 100%, 100%; }
 
@@ -298,7 +299,7 @@ hr {
   font-family: "AmericanTypewriter"; }
   .navbar li a {
     border: none;
-    text-shadow: 0 1px 1px #fff; }
+    text-shadow: 0 1px 1px #f7ebd7; }
     .navbar li a:hover {
       background: none;
       text-decoration: underline; }
