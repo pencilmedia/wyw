@@ -1,6 +1,10 @@
 /* BEGIN: webfont.scss
 // -----------------------------------------------------*/
 @font-face {
+  font-family: AmericanTypewriter;
+  src: url("AmericanTypewriter.ttc"); }
+
+@font-face {
   font-family: GreatVibes;
   src: url("greatvibes.ttf"); }
 

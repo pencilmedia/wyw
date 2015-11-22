@@ -36,7 +36,7 @@
 
 .hmpg .mid-anchor {
   width: 50%;
-  margin: 25% auto;
+  margin: 30% auto;
   margin-bottom: 0;
   text-align: center; }
   .hmpg .mid-anchor > p {
@@ -48,6 +48,17 @@
     left: 0;
     bottom: 20px;
     width: 100%; }
+  .hmpg .mid-anchor .navbar {
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+    min-height: auto; }
+    .hmpg .mid-anchor .navbar .nav {
+      width: 100%; }
+      .hmpg .mid-anchor .navbar .nav li {
+        width: 33%; }
+        .hmpg .mid-anchor .navbar .nav li a {
+          padding: 5px; }
 
 /* BEGIN: typography.scss
 // -----------------------------------------------------*/
@@ -176,18 +187,15 @@ body {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7ebd7+0,f4e0be+25,f4e0be+75,eedcc0+100 */
   background: #f7ebd7;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #f7ebd7 0%, #f4e0be 25%, #f4e0be 75%, #eedcc0 100%);
+  background: url("/images/ink_stamp.png") no-repeat 5% 30px fixed, url("/images/stamp.png") no-repeat 95% 30px fixed, url("/images/bg_stains.png") no-repeat left bottom fixed, -moz-linear-gradient(top, #f7ebd7 0%, #f4e0be 25%, #f4e0be 75%, #eedcc0 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #f7ebd7 0%, #f4e0be 25%, #f4e0be 75%, #eedcc0 100%);
+  background: url("/images/ink_stamp.png") no-repeat 5% 30px fixed, url("/images/stamp.png") no-repeat 95% 30px fixed, url("/images/bg_stains.png") no-repeat left bottom fixed, -webkit-linear-gradient(top, #f7ebd7 0%, #f4e0be 25%, #f4e0be 75%, #eedcc0 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #f7ebd7 0%, #f4e0be 25%, #f4e0be 75%, #eedcc0 100%);
+  background: url("/images/ink_stamp.png") no-repeat 5% 30px fixed, url("/images/stamp.png") no-repeat 95% 30px fixed, url("/images/bg_stains.png") no-repeat left bottom fixed, linear-gradient(to bottom, #f7ebd7 0%, #f4e0be 25%, #f4e0be 75%, #eedcc0 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7ebd7', endColorstr='#eedcc0',GradientType=0 );
-  /* IE6-9 */ }
-
-main {
-  background: url("/images/bg_stains.png") no-repeat left bottom fixed;
-  background-size: cover; }
+  /* IE6-9 */
+  background-size: 10%, 10%, 100%, 100%; }
 
 /* GLOBAL ANCHOR LINKS
 // -----------------------------------------------------*/
@@ -286,16 +294,18 @@ hr {
 // -----------------------------------------------------*/
 /* BEGIN: nav.scss
 // -----------------------------------------------------*/
-.navbar-fixed-bottom {
-  font-family: "Mohave";
-  bottom: 60px; }
-  .navbar-fixed-bottom li {
-    float: right;
-    margin-right: 10px; }
-    .navbar-fixed-bottom li:first-child {
-      margin-right: 40px; }
-    .navbar-fixed-bottom li a {
-      border: none; }
+.navbar {
+  font-family: "AmericanTypewriter"; }
+  .navbar li a {
+    border: none;
+    text-shadow: 0 1px 1px #fff; }
+    .navbar li a:hover {
+      background: none;
+      text-decoration: underline; }
+  .navbar li.active a {
+    color: #C14E4E;
+    text-decoration: underline;
+    cursor: default; }
 
 /* BEGIN: buttons.scss
 // -----------------------------------------------------*/

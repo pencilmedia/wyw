@@ -1,17 +1,23 @@
 /* BEGIN: nav.scss
 // -----------------------------------------------------*/
 
-.navbar-fixed-bottom {
-	font-family: $fontMohave;
-	bottom: 60px;
+.navbar {
+	font-family: $fontAmericanTypewriter;
 	li {
-		float: right;
-		margin-right: 10px;
-		&:first-child {
-			margin-right: 40px;
-		}
 		a {
 			border: none;
+			text-shadow: 0 1px 1px $white;
+			&:hover {
+				background: none;
+				text-decoration: underline;
+			}
+		}
+		&.active {
+			a {
+				color: $burgundy;
+				text-decoration: underline;
+				cursor: default;
+			}
 		}
 	}
 }
