@@ -1,7 +1,49 @@
 /* BEGIN: layout.scss
 // -----------------------------------------------------*/
 
+body {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7ebd7+0,f4e0be+25,f4e0be+75,eedcc0+100 */
+	background: #e5c997; /* Old browsers */
+	background: url('/images/bg_stains_secondary.png') no-repeat left bottom fixed, -moz-linear-gradient(top,  #e5c997 0%,#d9c39c 14%,#d9c39c 91%,#ccb68e 100%); /* FF3.6-15 */
+	background: url('/images/bg_stains_secondary.png') no-repeat left bottom fixed, -webkit-linear-gradient(top,  #e5c997 0%,#d9c39c 14%,#d9c39c 91%,#ccb68e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: url('/images/bg_stains_secondary.png') no-repeat left bottom fixed, linear-gradient(top,  #e5c997 0%,#d9c39c 14%,#d9c39c 91%,#ccb68e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c997', endColorstr='#ccb68e',GradientType=0 ); /* IE6-9 */
+	background-size: 100%, 100%, 100%, 100%;
+}
+.navbar {
+	min-height: auto;
+	.navbar-brand {
+		font-family: $fontGreatVibes;
+		font-size: 225%;
+		border: none;
+		padding: $pageMargin 0 0 0;
+		height: auto;
+		text-shadow: 0 1px 0 $white;
+		> span {
+			font-family: $fontEaglefeather;
+			font-size: 85%;
+			color: $burgundy;
+			margin-left: 10px;
+		}
+		img {
+			display: inline;
+			height: 100px;
+			margin-left: $pageMargin;
+		}
+	}
+	.navbar-nav {
+		margin: 25px $pageMargin 0 0;
+	}
+}
+
 .hmpg {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7ebd7+0,f4e0be+25,f4e0be+75,eedcc0+100 */
+	background: #e5c997; /* Old browsers */
+	background: url('/images/ink_stamp.png') no-repeat 5% 30px fixed, url('/images/stamp.png') no-repeat 95% 30px fixed, url('/images/bg_stains.png') no-repeat left bottom fixed, -moz-linear-gradient(top,  #e5c997 0%,#d9c39c 14%,#d9c39c 91%,#ccb68e 100%); /* FF3.6-15 */
+	background: url('/images/ink_stamp.png') no-repeat 5% 30px fixed, url('/images/stamp.png') no-repeat 95% 30px fixed, url('/images/bg_stains.png') no-repeat left bottom fixed, -webkit-linear-gradient(top,  #e5c997 0%,#d9c39c 14%,#d9c39c 91%,#ccb68e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: url('/images/ink_stamp.png') no-repeat 5% 30px fixed, url('/images/stamp.png') no-repeat 95% 30px fixed, url('/images/bg_stains.png') no-repeat left bottom fixed, linear-gradient(top,  #e5c997 0%,#d9c39c 14%,#d9c39c 91%,#ccb68e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c997', endColorstr='#ccb68e',GradientType=0 ); /* IE6-9 */
+	background-size: 12%, 12%, 100%, 100%;
 	h1, h2, p {
 		margin: 0;
 		padding: 0;

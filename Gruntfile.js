@@ -41,6 +41,6 @@ module.exports = function(grunt) {
 		}
 	});
 	// Register Tasks - on save and on first build
-	grunt.registerTask('build', ['sass']);
+	grunt.registerTask('build', 'newer', ['sass']);
 	grunt.registerTask('default', ['build', 'watch']);
 };
