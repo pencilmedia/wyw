@@ -197,7 +197,7 @@ body {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c997', endColorstr='#ccb68e',GradientType=0 );
   /* IE6-9 */
-  background-size: 15%, 15%, 100%, 100%; }
+  background-size: 12%, 12%, 100%, 100%; }
 
 /* GLOBAL ANCHOR LINKS
 // -----------------------------------------------------*/
