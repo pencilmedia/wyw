@@ -20,7 +20,21 @@
 
 // Tablet Portrait - > 768px
 @media(max-width: $screen-sm-min) {
-
+	.hmpg {
+		.mid-anchor {
+			width: 100%;
+			h2 {
+				margin-top: 10px;
+				margin-bottom: $pageMargin;
+			}
+			.navbar {
+				li {
+					display: inline-block;
+					width: 33%;
+				}
+			}
+		}
+	}
 }
 
 // Phone Portrait - > 480px
@@ -28,7 +42,6 @@
 	.navbar {
 		.navbar-brand {
 			text-align: center;
-			width: 100%;
 			> span {
 				display: block;
 				line-height: 60px;

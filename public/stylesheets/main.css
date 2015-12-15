@@ -90,14 +90,13 @@ body {
     .hmpg .mid-anchor > p {
       font-family: "IndieFlower";
       font-weight: 600;
-      color: #77593c;
+      color: #C14E4E;
       position: absolute;
       left: 0;
       bottom: 20px;
       width: 100%; }
     .hmpg .mid-anchor .navbar {
       text-align: center;
-      width: 50%;
       margin: 0 auto;
       min-height: auto; }
       .hmpg .mid-anchor .navbar .nav {
@@ -504,10 +503,19 @@ hr {
 // -----------------------------------------------------*/
 /*  RESPONSIVE BEHAVIOR
 // -----------------------------------------------------*/
+@media (max-width: 768px) {
+  .hmpg .mid-anchor {
+    width: 100%; }
+    .hmpg .mid-anchor h2 {
+      margin-top: 10px;
+      margin-bottom: 20px; }
+    .hmpg .mid-anchor .navbar li {
+      display: inline-block;
+      width: 33%; } }
+
 @media (max-width: 480px) {
   .navbar .navbar-brand {
-    text-align: center;
-    width: 100%; }
+    text-align: center; }
     .navbar .navbar-brand > span {
       display: block;
       line-height: 60px; }
