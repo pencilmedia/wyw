@@ -53,7 +53,7 @@ body {
       height: 100px;
       margin-left: 20px; }
   .navbar .navbar-nav {
-    margin: 25px 20px 0 0; }
+    margin: 45px 20px 0 0; }
 
 .hmpg {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7ebd7+0,f4e0be+25,f4e0be+75,eedcc0+100 */
@@ -504,3 +504,20 @@ hr {
 // -----------------------------------------------------*/
 /*  RESPONSIVE BEHAVIOR
 // -----------------------------------------------------*/
+@media (max-width: 480px) {
+  .navbar .navbar-brand {
+    text-align: center;
+    width: 100%; }
+    .navbar .navbar-brand > span {
+      display: block;
+      line-height: 60px; }
+    .navbar .navbar-brand img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 30px; }
+  .navbar .navbar-nav {
+    margin: 0; }
+    .navbar .navbar-nav li {
+      float: left;
+      width: 33%;
+      text-align: center; } }

@@ -25,6 +25,28 @@
 
 // Phone Portrait - > 480px
 @media(max-width: $screen-xs-min) {
-	
+	.navbar {
+		.navbar-brand {
+			text-align: center;
+			width: 100%;
+			> span {
+				display: block;
+				line-height: 60px;
+			}
+			img {
+				display: block;
+				margin: 0 auto;
+				margin-bottom: 30px;
+			}
+		}
+		.navbar-nav {
+			margin: 0;
+			li {
+				float: left;
+				width: 33%;
+				text-align: center;
+			}
+		}
+	}
 }
 
