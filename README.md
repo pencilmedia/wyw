@@ -28,10 +28,10 @@ EL CAPITAN OSX must install sass with " sudo gem install -n /usr/local/bin sass 
 open 2 terminals:
 
 Term 1:
-``npm start`` command from root folder of project ("proto" folder)
+``npm start`` command from root folder of project
 
 Term 2:
-"grunt" command from root folder of project ("proto" folder)
+"grunt" command from root folder of project
 
 
 

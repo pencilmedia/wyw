@@ -18,15 +18,15 @@ module.exports = function(grunt) {
           			style: 'nested' // we don't want to compress it
 				},
 				files: {
-					'public/fonts/webfonts.css': 'sass/webfonts.scss',
-					'public/stylesheets/main.css': 'sass/main.scss'
+					'public/stylesheets/main.css': 'sass/main.scss',
+					'public/fonts/webfonts.css': 'sass/webfonts.scss'
 				}
 			}
 		},
 		// LiveReload in browser
 		watch: {
 			scripts: {
-				files: ['views/**/*.ejs','sass/**/*.scss'], // File types to watch for
+				files: ['views/**/*.ejs','sass/**/*.scss', 'public/javascripts/**/*js'], // File types to watch for
 				tasks: ['sass'], // Tasks that should run on save
 				options: {
 					livereload: true,
@@ -41,6 +41,6 @@ module.exports = function(grunt) {
 		}
 	});
 	// Register Tasks - on save and on first build
-	grunt.registerTask('build', 'newer', ['sass']);
+	grunt.registerTask('build', ['grunt-newer', 'sass']);
 	grunt.registerTask('default', ['build', 'watch']);
 };
