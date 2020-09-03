@@ -16,7 +16,7 @@
     "grunt-cli": "^0.1.13",
     "grunt-sass": "^1.0.0",
     "morgan": "~1.9.1",
-    "node-sass": "^3.3.3",
+    "node-sass": "^4.14.1",
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
