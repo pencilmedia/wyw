@@ -1,0 +1,66 @@
+/******** LOGO *********/
+h2 {
+	width: 255px;
+	height: 50px;
+	margin: 0 0 0 250px;
+}
+h2 span {
+	visibility: hidden;
+}
+
+
+/******** GLOBAL GENERAL HEADERS *********/
+h3 {
+	font-size: 1.35;
+}
+h4 {
+	font-size: 1.15em;
+	margin-bottom: 0;
+}
+h5 {
+	color: #600;
+	font-size: .95em;
+	margin-bottom: 0;
+}
+
+/******** HEADER IMAGE REPLACEMENTS *********/
+#about h3,
+#services h3,
+#contact h3,
+#history h3,
+#privacy h3,
+#legal h3,
+#terms h3 {
+	width: 150px;
+	height: 18px;
+}
+#about h3 span,
+#services h3 span,
+#contact h3 span,
+#history h3 span,
+#privacy h3 span,
+#legal h3 span,
+#terms h3 span {
+	visibility: hidden;
+}
+#about h3 {
+	background: url(../media/img/headers/header_about.png) no-repeat top left;
+}
+#services h3 {
+	background: url(../media/img/headers/header_services.png) no-repeat top left;
+}
+#contact h3 {
+	background: url(../media/img/headers/header_contact.png) no-repeat top left;
+}
+#history h3 {
+	background: url(../media/img/headers/header_history.png) no-repeat top left;
+}
+#privacy h3 {
+	background: url(../media/img/headers/header_privacy.png) no-repeat top left;
+}
+#legal h3 {
+	background: url(../media/img/headers/header_legal.png) no-repeat top left;
+}
+#terms h3 {
+	background: url(../media/img/headers/header_terms.png) no-repeat top left;
+}
