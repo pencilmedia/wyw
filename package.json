@@ -1,0 +1,14 @@
+{
+  "name": "wyw-dev",
+  "version": "1.0.0",
+  "description": "Development server with auto-refresh",
+  "scripts": {
+    "dev": "node start-dev.js",
+    "start": "node start-dev.js"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "concurrently": "^8.2.2"
+  }
+}
+
