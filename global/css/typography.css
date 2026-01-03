@@ -1,0 +1,322 @@
+/******** TYPOGRAPHY *********/
+
+/* Body Typography */
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+	font-weight: normal;
+	color: #332519;
+}
+
+/* Links */
+a {
+	color: #B8472F;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #C62828;
+	text-decoration: underline;
+}
+
+.lt_column a {
+	color: #2D1B0E;
+	text-decoration: none;
+	font-family: 'Eaglefeather', 'Trajan Pro', 'Cinzel', serif;
+	text-align: right;
+}
+
+.lt_column a:hover,
+.lt_column a.active {
+	color: #e9dabe;
+}
+
+/* Headings - Global */
+
+/* Logo/Header Image Replacements (keeping structure but these are visual, not typography) */
+h2 {
+	width: 255px;
+	height: 50px;
+	margin: 0 0 0 250px;
+}
+
+h2 span {
+	visibility: hidden;
+}
+
+h3 {
+	font-size: 1.5em;
+	width: 150px;
+	height: 18px;
+}
+
+/* Heading Spacing - Optimal Hierarchy */
+h4 {
+	font-size: 1.4em;	
+	margin: 2em 0 0.75em 0;
+	font-weight: 600;
+}
+
+h4:first-child {
+	margin-top: 0;
+}
+
+h5 {
+	color: #600;
+	font-size: 1.3em;	
+	margin: 1.5em 0 0.5em 0;
+	font-weight: 600;
+}
+
+h6 {
+	font-size: 1.1em;
+	margin: 1.25em 0 0.5em 0;
+	font-weight: 500;
+}
+
+/* Paragraph spacing after headings - groups content with header */
+h4 + p,
+h4 + ul,
+h5 + p,
+h5 + ul,
+h6 + p,
+h6 + ul {
+	margin-top: 0.5em;
+}
+
+/* List spacing */
+ul, ol {
+	margin: 1em 0;
+	padding-left: 1.5em;
+}
+
+ul li, ol li {
+	margin: 0.5em 0;
+	line-height: 1.6;
+}
+
+/* Paragraph spacing - consistent rhythm */
+p {
+	margin: 0 0 1.25em 0;
+	line-height: 1.6;
+}
+
+/* Tighten spacing when paragraphs follow lists */
+ul + p,
+ol + p {
+	margin-top: 1em;
+}
+
+#about h3 span,
+#services h3 span,
+#contact h3 span,
+#history h3 span,
+#privacy h3 span,
+#legal h3 span,
+#terms h3 span {
+	visibility: hidden;
+}
+
+#about h3 {
+	background: url(../media/img/headers/header_about.png) no-repeat top left;
+}
+
+#services h3 {
+	background: url(../media/img/headers/header_services.png) no-repeat top left;
+}
+
+#contact h3 {
+	background: url(../media/img/headers/header_contact.png) no-repeat top left;
+}
+
+#history h3 {
+	background: url(../media/img/headers/header_history.png) no-repeat top left;
+}
+
+#privacy h3 {
+	background: url(../media/img/headers/header_privacy.png) no-repeat top left;
+}
+
+#legal h3 {
+	background: url(../media/img/headers/header_legal.png) no-repeat top left;
+}
+
+#terms h3 {
+	background: url(../media/img/headers/header_terms.png) no-repeat top left;
+}
+
+
+/* Note/Info Box Typography */
+.note {
+	font-size: 0.95em;
+}
+
+.note-header {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+/* Footer Typography */
+ul#footer {
+	text-align: center;
+	font-size: 16px;
+}
+
+#footer li {
+	color: #DAA520;
+	font-family: 'Eaglefeather', 'Trajan Pro', 'Cinzel', serif;
+	letter-spacing: 1px;
+}
+
+#footer li a {
+	color: #DAA520;
+	text-decoration: none;
+}
+
+#footer li a:hover {
+	color: #e9dabe !important;
+}
+
+#footer li a:hover span {
+	color: #e9dabe !important;
+}
+
+#footer li a span {
+	visibility: visible;
+	color: inherit;
+}
+
+ul#footer li {
+	font-family: 'Eaglefeather', 'Trajan Pro', 'Cinzel', serif !important;
+	font-size: 16px !important;
+	color: #2D1B0E !important;
+	letter-spacing: 1px;
+}
+
+ul#footer li a {
+	color: #2D1B0E !important;
+	text-decoration: none;
+}
+
+ul#footer li a:hover {
+	color: #e9dabe !important;
+}
+
+ul#footer li a:hover span {
+	color: #e9dabe !important;
+}
+
+/* Contact Form Typography */
+.disclaimer {
+	font-size: 90%;
+}
+
+#customForm p span {
+	font-size: 10px;
+	font-style: italic;
+}
+
+#customForm p span.error {
+	color: #903;
+}
+
+#error ul {
+	font-size: 11px;
+}
+
+#error ul li {
+	line-height: 1.6em;
+}
+
+#error ul li strong {
+	color: #903;
+}
+
+span.required {
+	color: #903;
+}
+
+#contactResults label {
+	font-weight: bold;
+}
+
+/* Homepage Typography */
+body#hmpg h1 {
+	text-align: center;
+	font-family: 'Eaglefeather', 'Trajan Pro', 'Cinzel', 'Times New Roman', serif;
+	font-size: 4em;
+	font-weight: 400;
+	color: #2D1B0E;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+	letter-spacing: 8px;
+	line-height: 1.1;
+}
+
+body#hmpg h2 {
+	text-align: center;
+	font-family: 'Eaglefeather', 'Trajan Pro', 'Cinzel', 'Times New Roman', serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #e9dabe;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+body#hmpg h3 {
+	text-align: center;
+	font-family: 'Eaglefeather', 'Trajan Pro', 'Cinzel', 'Times New Roman', serif;
+	font-size: 1.75em;
+	font-weight: normal;
+	color: #00000060;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	letter-spacing: 3px;
+}
+
+body#hmpg h3 .llc {
+	font-size: .8em;
+}
+
+body#hmpg ul#nav li {
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+body#hmpg ul#nav li a {
+	color: #2D1B0E;
+	text-decoration: none;
+	font-family: 'Trajan Pro', 'Cinzel', serif;
+	text-transform: uppercase;
+}
+
+body#hmpg ul#nav li a:hover {
+	color: #e9dabe;
+}
+
+/* Navigation Typography */
+ul#global_nav li a {
+	font-family: 'Eaglefeather', 'Trajan Pro', 'Cinzel', "Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	color: #e9dabe;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+}
+
+ul#global_nav li a:hover {
+	color: #e9dabe;
+}
+
+ul#global_nav li#selected a {
+	color: #DAA520;
+}
+
+.homeBtn {
+	color: #a5804a;
+	font-style: normal;
+	font-size: 10px;
+}
+
+/* Pagination Typography */
+.pagination {
+	text-align: right;
+}
+

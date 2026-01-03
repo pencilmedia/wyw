@@ -15,42 +15,59 @@
             <div id="content">
                 <div class="lt_column">
             		<h3><span>Services</span></h3>
-                 	<img src="../global/media/img/old-postcard.png" alt="Old postcard" />
+                 	<img src="../global/media/img/old-postcard.png" class="vintage-photo" alt="Old postcard" />
                 </div>
                 <div class="rt_column">
                 	<div class="textcopy">
 
-                        <p><strong><em>A journey of insight, clarity, and connection</em></strong></p>
+                        <h4>Rate Sheet & Session Offerings</h4>
 
-                        <p>Your handwriting is more than words on a page—it is a reflection of your unique energy, personality, and inner truth. Intuitive Handwriting Analysis offers a compassionate and illuminating way to explore who you are, how you connect with others, and the hidden strengths waiting to be discovered.</p>
+                        <h4>INDIVIDUAL SESSIONS</h4>
+                        <h5>Individual Standard Analysis</h5>
+                        <p>60 minutes — $100</p>
 
-                        <p>This is not fortune telling. Instead, it is a supportive process of awakening the present moment—shedding light on your patterns, celebrating your gifts, and opening new pathways for growth and connection.</p>
+                        <h4>RELATIONSHIP & COUPLES SESSIONS</h4>
+                        <h5>Couples / Relationship Analysis</h5>
+                        <p>90 minutes — $150</p>
 
-                        <h4>Individual Sessions</h4>
-                        
-                        <h5>Standard Analysis (60 min)</h5>
-                        <p>A guided exploration of your handwriting that reveals key personality traits, communication style, strengths, and growth areas. Perfect for gaining self-awareness and clarity.</p>
+                        <h4>SOCIAL & SMALL GROUP SESSIONS</h4>
+                        <h5>Small Social Group Experience</h5>
+                        <p>90 minutes — $250 (up to 6 people)</p>
+                        <p><strong>Additional Group Participants:</strong></p>
+                        <p>Add $25 per person for groups larger than 6 (up to 12 participants).</p>
 
-                        <h5>Premium Deep-Dive (90 min)</h5>
-                        <p>An in-depth, full-spectrum analysis with personalized insights into relationships (family, workplace, or community), career direction, and deeper aspects of character and personal growth.</p>
+                        <h4>WORKPLACE, TEAMS & ORGANIZATIONS</h4>
+                        <h5>Team-Building / Workplace Communication Workshop</h5>
+                        <p>Starting at $350 (60–90 min)</p>
 
+                        <h4>EVENTS, SOCIAL GATHERINGS & COMMUNITY PROGRAMS</h4>
+                        <h5>Private Events / Parties / Community Programs</h5>
+                        <p>$200/hour (2-hour minimum)</p>
 
-                        <h4>Collaborative Sessions (2 Individuals)</h4>
+                        <h4>ADD-ONS & CUSTOM SERVICES</h4>
+                        <p>Written Report (Individual) — $45</p>
+                        <p>Compatibility Summary (Couples) — $40</p>
+                        <p>Travel Fee (Outside Omaha / Lincoln city limits) — $15–$35 depending on distance</p>
+                        <p>Corporate Applicant Screening / HR Services — Custom pricing available</p>
 
-                        <h5>Collective Reading (60 min)</h5>
-                        <p>A warm and supportive joint handwriting experience for partners, siblings, friends, or colleagues. Together, we explore relationship dynamics, celebrate shared strengths, and uncover new opportunities for connection and understanding.</p>
+                        <h4>NOTES</h4>
+                        <p>All sessions available in-person (Omaha/Lincoln region) or via Zoom.</p>
+                        <p>Payment options: Cash, Check, PayPal, Venmo, Zelle, or Invoice.</p>
+                        <p>Gift certificates available year-round.</p>
 
-                        <h4>Small Group & Event Experiences</h4>
-
-                        <h5>Group Readings (up to 5 people, 90 min)</h5>
-                        <p>A fun and engaging shared experience, perfect for women’s or men’s circles, family gatherings, book clubs, or community events. Each participant receives meaningful insights, while the group benefits from shared exploration and connection.</p>
-
-                        <h4>Add-On Services</h4>
-
-                        <h5>Gift Certificates</h5>
-                        <p>Available for any session—share the gift of self-discovery and insight with someone you love.</p>
-
-                        <p>Every session is designed to meet you where you are—with kindness, depth, and intuitive guidance. Your handwriting tells a story. Let’s explore yours.</p>
+                        <h4>What to Expect</h4>
+                        <p>
+                        No special preparation is needed. At the time of your session, you'll simply provide a brief handwriting sample on the spot—this can be written in any language or style and may include work/class notes, doodles/drawings, a signature, historical documents, or even a journal excerpt.
+                        </p>
+                        <p>
+                        During the session, we'll explore what your handwriting reveals about decision-making, communication, connectivity, and navigate life. The experience is conversational, engaging, and supportive—designed to meet you where you are and offer insight without labels, diagnosis, or judgment.
+                        </p>
+                        <p>
+                        Sessions often feel affirming, eye-opening, and grounding. Many clients leave with a clearer understanding of themselves, renewed confidence, and practical awareness they can apply immediately in daily life, relationships, or work.
+                        </p>
+                        <p>
+                        There are no right or wrong questions—only curiosity and discovery.
+                        </p>
 
 
 

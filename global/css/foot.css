@@ -7,26 +7,14 @@ ul#footer {
 	padding: 24px 0;
 }
 ul#footer li {
-	font-family: 'Eaglefeather', 'Trajan Pro', 'Cinzel', serif !important;
-	font-size: 16px !important;
-	color: #2D1B0E !important;
 	display: inline-block !important;
 	list-style: none;
 	margin: 0 8px !important;
 	padding: 0 !important;
 	border: none !important;
-	letter-spacing: 1px;
-}
-ul#footer li a {
-	color: #2D1B0E !important;
-	text-decoration: none;
 }
 ul#footer li a:hover {
-	color: #e9dabe !important;
 	border: none;
-}
-ul#footer li a:hover span {
-	color: #e9dabe !important;
 }
 
 /******** SPECIAL FOOTER STYLES *********/

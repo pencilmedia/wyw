@@ -30,7 +30,6 @@ span.counter input {
 }
 
 .disclaimer {
-	font-size: 90%;
 	margin-top: 10px;
 }
 
@@ -44,11 +43,6 @@ span.counter input {
  } 
  #customForm p span {  
      margin-left: 3px;
-     font-size: 10px;  
-     font-style: italic;  
- }  
- #customForm p span.error{  
-     color: #903;  
  }  
  #error {  
      margin-bottom: 20px;  
@@ -57,17 +51,11 @@ span.counter input {
  #error ul {  
      list-style: square;  
      padding: 5px;  
-     font-size: 11px;  
  }  
  #error ul li {  
      list-style-position: inside;  
-     line-height: 1.6em;  
  }  
- #error ul li strong {  
-     color: #903;  
- } 
 span.required {
-	color: #903;
 	margin-right: 3px;
 }
 #send {
@@ -90,7 +78,6 @@ span.required {
 }
 #contactResults label {
 	display: inline;
-	font-weight: bold;
 	margin-right: 5px;
 }
 

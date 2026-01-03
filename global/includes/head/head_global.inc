@@ -58,9 +58,7 @@ window.addEventListener('resize', function() {
 });
 </script>
 
-<style type="text/css" media="screen">
-	@import url("../global/css/all.css");
-</style>
+<link rel="stylesheet" type="text/css" href="../global/css/all.css?v=<?php echo time(); ?>" media="screen" />
 
 <style type="text/css">
 	@font-face {

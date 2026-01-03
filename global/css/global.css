@@ -6,11 +6,6 @@ html {
 }
 
 body {
-	font-family: "Lato", "Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Helvetica,Arial,sans-serif;
-	font-size: 16px;
-	line-height: 1.6;
-	font-weight: normal;
-	color: #332519;
 	padding: 0;
 	background: radial-gradient(ellipse at center, #DA5026 0%, #A2402C 100%);
 	height: 100vh;
@@ -18,16 +13,6 @@ body {
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
-}
-
-a {
-	color: #B8472F;
-	text-decoration: underline;
-}
-
-a:hover {
-	color: #A2402C;
-	text-decoration: none;
 }
 #cardboard_top {
 	flex: 1;
@@ -69,17 +54,9 @@ a:hover {
 	height: auto;
 }
 
-.lt_column h3 {
-	text-align: center;
-}
 .lt_column a {
-	color: #2D1B0E;
-	text-decoration: none;
 	transition: color 0.3s ease;
-	font-family: 'Eaglefeather', 'Trajan Pro', 'Cinzel', serif;
 	display: block;
-	text-align: right;
-	margin: 10px 80px 10px auto;
 }
 .lt_column a:hover,
 .lt_column a.active {
@@ -92,8 +69,8 @@ body#services .lt_column img {
 	max-width: calc(75% - 24px);
 }
 
-/* Frame effect only for contact page */
-body#contact .lt_column img {
+/* Frame effect only for contact page photo */
+body#contact .lt_column img:not(img[src*="bbb.org"]) {
 	padding: 12px;
 	background: linear-gradient(135deg, #2D1B0E 0%, #3A2418 50%, #2D1B0E 100%);
 	border-radius: 8px;
@@ -101,6 +78,40 @@ body#contact .lt_column img {
 		0 4px 12px rgba(0, 0, 0, 0.3),
 		inset 0 2px 4px rgba(255, 255, 255, 0.1),
 		inset 0 -2px 4px rgba(0, 0, 0, 0.2);
+	display: block;
+	margin: 20px auto;
+	max-width: 100%;
+	height: auto;
+}
+
+/* BBB seal in left column on contact page - centered with photo */
+body#contact .lt_column p:has(img[src*="bbb.org"]) {
+	text-align: center;
+	margin: 20px auto 0 auto;
+	width: 100%;
+}
+
+body#contact .lt_column p img[src*="bbb.org"] {
+	border: 3px solid #2D1B0E;
+	border-radius: 8px;
+	padding: 8px;
+	background: #2D1B0E;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Photo frame effect for about page */
+body#about .lt_column img.vintage-photo {
+	position: relative;
+	padding: 2px;
+	background: #4e311b;
+	border: 1px solid #1a0909;
+	border-radius: 8px;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	max-width: 85%;
 }
 
 .rt_column {
@@ -152,31 +163,13 @@ body#contact .lt_column img {
 		padding: 10px 10px 20px 10px;
 	}
 }
-#content .rt_column h3,
-#content .rt_column h4,
-#content .rt_column h5 {
-	margin: 40px 8px 0 4px;
-}
-#content .rt_column h4 {
-	margin-bottom: 20px;
-}
-#content .rt_column h5 {
-	margin-bottom: 10px;
-	margin-top: 24px;
-}
-#content .rt_column h3:first-child,
-#content .rt_column h4:first-child,
-#content .rt_column h5:first-child {
-	margin-top: 0;
-}
-#content .rt_column p {
-	margin: 16px 8px 0 4px;
-	line-height: 1.6;
-}
-#content .rt_column li {
-	font-size: .9em;;
-}
 
+hr {
+	border: none;
+	border-top: 1px solid #332519;
+	margin: 1.5em 0;
+	width: 100%;
+}
 /* Note/Info box styling */
 .note {
 	background: linear-gradient(135deg, 
@@ -185,25 +178,20 @@ body#contact .lt_column img {
 		rgba(218, 80, 38, 0.1) 100%);
 	border-radius: 8px;
 	padding: 16px 20px;
-	margin: 20px 0;
-	font-size: 0.95em;
+	margin: 0;
 	box-shadow: 0 0 8px rgba(218, 80, 38, 0.4), 0 0 16px rgba(218, 80, 38, 0.2);
 	position: relative;
 }
 
 .note-header {
-	font-size: 1.1em;
-	font-weight: bold;
 	margin-bottom: 8px;
 }
 
 .note-icon {
 	margin-right: 8px;
 }
-
-/* Center align the last paragraph in textcopy only if it contains an image */
-.textcopy p:last-child:has(img) {
-	text-align: center;
+.copyright {
+	font-size: 0.9em;
 }
 
 /* Frame BBB seal with dark box */
@@ -216,7 +204,6 @@ body#contact .lt_column img {
 }
 .pagination {
 	padding: 5px 0;
-	text-align: right;
 	margin-right: 24px;
 }
 
@@ -226,8 +213,6 @@ ul#footer {
 	width: 100%;
 	padding: 15px 24px;
 	margin: 0;
-	text-align: center;
-	font-size: 16px;
 	box-sizing: border-box;
 	list-style: none;
 	position: relative;
@@ -242,29 +227,19 @@ body.content-overflow ul#footer {
 	display: inline-block;
 	list-style: none;
 	margin: 0;
-	color: #DAA520;
-	font-family: 'Eaglefeather', 'Trajan Pro', 'Cinzel', serif;
-	letter-spacing: 1px;
 }
 
 #footer li a {
-	color: #DAA520;
-	text-decoration: none;
 	transition: color 0.3s ease;
 }
 
 #footer li a:hover {
-	color: #e9dabe !important;
 	border: none;
 }
 
-#footer li a:hover span {
-	color: #e9dabe !important;
-}
 
 #footer li a span {
 	visibility: visible;
-	color: inherit;
 	transition: color 0.3s ease;
 }
 
