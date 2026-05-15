@@ -7,8 +7,7 @@
     "start": "node start-dev.js"
   },
   "devDependencies": {
-    "browser-sync": "^2.29.3",
+    "browser-sync": "^3.0.4",
     "concurrently": "^8.2.2"
   }
 }
-
